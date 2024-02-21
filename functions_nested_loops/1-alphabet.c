@@ -6,13 +6,11 @@
  * Return: Always 0.
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	int abc;
+		int abc;
 
-	for (abc = 'a'; abc <= 'z'; abc++)
-	putchar(abc);
-	putchar('\n');
-	return (0);
+		for (abc = 'a'; abc <= 'z'; abc++)
+				_putchar(abc);	
+		_putchar('\n');
 }
-
