@@ -1,14 +1,16 @@
-#include "main.h"
 #include <stdio.h>
-
+#include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
+ *mul - program to multiplicate
+ *@a: first digit of the mul
+ *@b: second digit of the mul
+ *Return: Return the result
  */
-int main(void)
+
+int mul(int a, int b)
 {
-    printf("%d\n", mul(98, 1024));
-    printf("%d\n", mul(-402, 4096));
-    return (0);
+	int m;
+
+	m = (a * b);
+	return (m);
 }
