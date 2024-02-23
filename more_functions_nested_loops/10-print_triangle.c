@@ -1,10 +1,7 @@
-#include <stdio.h>
 #include "main.h"
 /**
  *print_triangle - funcion to create a triangle
  *@size: size of the triangle
- *@lines: variable
- *@trg: variable
  */
 
 void print_triangle(int size)
@@ -13,7 +10,7 @@ void print_triangle(int size)
 
 	if (size <= 0)
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 	for (lines = 1; lines <= size; lines++)
 	{
@@ -21,14 +18,14 @@ void print_triangle(int size)
 		{
 			if ((size - trg) >= lines)
 			{
-				putchar(' ');
+				_putchar(' ');
 			}
 			else
 			{
-				putchar('#');
+				_putchar('#');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 
 }
