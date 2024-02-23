@@ -3,6 +3,8 @@
 /**
  *print_triangle - funcion to create a triangle
  *@size: size of the triangle
+ *@lines: variable
+ *@trg: variable
  */
 
 void print_triangle(int size)
