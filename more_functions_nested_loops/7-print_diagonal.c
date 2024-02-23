@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
  *print_diagonal - funcion to print diagonals
  *@n: number of times that diagonal will print
@@ -14,14 +15,14 @@ void print_diagonal(int n)
 		{
 			for (spc = 0 ; spc < i ; spc++)
 			{
-				putchar(' ');
+				_putchar(' ');
 			}
-			putchar('\\');
-			putchar('\n');
+			_putchar('\\');
+			_putchar('\n');
 		}
 	}
 	else
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 }
