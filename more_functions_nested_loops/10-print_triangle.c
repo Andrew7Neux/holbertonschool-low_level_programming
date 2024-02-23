@@ -11,7 +11,7 @@ void print_triangle(int size)
 
 	if (size <= 0)
 	{
-		_putchar('\n');
+		putchar('\n');
 	}
 	for (lines = 1; lines <= size; lines++)
 	{
@@ -19,14 +19,14 @@ void print_triangle(int size)
 		{
 			if ((size - trg) >= lines)
 			{
-				_putchar(' ');
+				putchar(' ');
 			}
 			else
 			{
-				_putchar('#');
+				putchar('#');
 			}
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 
 }
