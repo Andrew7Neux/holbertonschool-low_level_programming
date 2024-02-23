@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 /**
  *print_diagonal - funcion to print diagonals
  *@n: number of times that diagonal will print
